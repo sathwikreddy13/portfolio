@@ -7,12 +7,12 @@ const Skills = () => {
     {
       icon: Code,
       title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "Java", "Solidity", "C++", "HTML/CSS"]
+      skills: ["JavaScript", "Python", "Java","kotlin", "HTML/CSS"]
     },
     {
       icon: Wrench,
       title: "Frameworks & Tools", 
-      skills: ["React.js", "Node.js", "Express.js", "Git", "Docker", "Web3.js", "Ethereum", "Tailwind CSS"]
+      skills: ["React.js", "Node.js", "Express.js", "Git", "Docker", "Web3.js"]
     },
     {
       icon: Database,
@@ -22,7 +22,7 @@ const Skills = () => {
     {
       icon: BarChart,
       title: "Other Skills",
-      skills: ["Business Analysis", "Project Management", "UI/UX Design", "Smart Contracts", "DeFi", "Data Structures & Algorithms"]
+      skills: ["Business Analysis", "UI/UX Design", "Smart Contracts", "DeFi", "Data Structures & Algorithms"]
     }
   ];
 

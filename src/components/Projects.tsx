@@ -26,13 +26,13 @@ const Projects = () => {
       link: "https://blippi-frontend.vercel.app",
       github: "https://github.com/sathwikreddy/blippi",
       featured: true,
-      image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "blippi_1.png",
       category: "Web3"
     },
     {
-      title: "EcoTrack",
-      description: "An AI-powered sustainability tracking application that helps users monitor their carbon footprint and suggests eco-friendly alternatives for daily activities.",
-      technologies: ["React Native", "Python", "TensorFlow", "Firebase", "Node.js"],
+      title: "Flavour Fusion",
+      description: "An AI powered recipe generator that allows you to create recipes based on your preferences.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       achievements: [
         {
           icon: Users,
@@ -43,52 +43,52 @@ const Projects = () => {
           text: "4.8/5 app store rating"
         }
       ],
-      link: "https://ecotrack-demo.vercel.app",
+      link: "https://fusion-frontend-phi.vercel.app/",
       github: "https://github.com/sathwikreddy/ecotrack",
       featured: false,
-      image: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=800",
-      category: "Mobile App"
+      image:"project2.png",
+      category: "web App"
     },
     {
-      title: "DevCollab",
-      description: "A real-time collaborative coding platform with integrated video chat, code sharing, and project management features for remote development teams.",
-      technologies: ["Next.js", "Socket.io", "MongoDB", "WebRTC", "Docker"],
+      title: "Aeon-UI",
+      description: "Aeon-UI is a modern and responsive UI library built with Next.js, Gemini API, Framer Motion, and Tailwind CSS. It provides a set of reusable components and utilities to help you build your next web application faster and easier.",
+      technologies: ["Next.js", "Gemini API", "Framer Motion", "Tailwind CSS"],
       achievements: [
         {
           icon: Code2,
-          text: "Real-time collaboration"
+          text: "Responsive UI"
         },
         {
           icon: Users,
-          text: "500+ teams using"
+          text: "30+ components and utilities"
         }
       ],
-      link: "https://devcollab-platform.vercel.app",
-      github: "https://github.com/sathwikreddy/devcollab",
+      link: "https://aeon-ui.vercel.app/",
+      github: "https://github.com/sathwikreddy/aeon-ui",
       featured: false,
-      image: "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "project4.png",
       category: "Web Platform"
     },
-    {
-      title: "SmartFinance",
-      description: "An intelligent personal finance management app with AI-driven insights, expense categorization, and investment recommendations.",
-      technologies: ["Flutter", "Python", "FastAPI", "PostgreSQL", "ML"],
-      achievements: [
-        {
-          icon: TrendingUp,
-          text: "25% better savings rate"
-        },
-        {
-          icon: Smartphone,
-          text: "Cross-platform support"
-        }
-      ],
-      link: "https://smartfinance-app.vercel.app",
-      github: "https://github.com/sathwikreddy/smartfinance",
-      featured: false,
-      image: "https://images.pexels.com/photos/3861961/pexels-photo-3861961.jpeg?auto=compress&cs=tinysrgb&w=800",
-      category: "FinTech"
-    }
+    // {
+    //   title: "SmartFinance",
+    //   description: "An intelligent personal finance management app with AI-driven insights, expense categorization, and investment recommendations.",
+    //   technologies: ["Flutter", "Python", "FastAPI", "PostgreSQL", "ML"],
+    //   achievements: [
+    //     {
+    //       icon: TrendingUp,
+    //       text: "25% better savings rate"
+    //     },
+    //     {
+    //       icon: Smartphone,
+    //       text: "Cross-platform support"
+    //     }
+    //   ],
+    //   link: "https://smartfinance-app.vercel.app",
+    //   github: "https://github.com/sathwikreddy/smartfinance",
+    //   featured: false,
+    //   image: "https://images.pexels.com/photos/3861961/pexels-photo-3861961.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   category: "FinTech"
+    // }
   ];
 
   const scroll = (direction: 'left' | 'right') => {

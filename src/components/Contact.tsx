@@ -28,13 +28,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/sathwikreddy",
+      href: "https://github.com/sathwikreddy13",
       color: "hover:text-gray-800"
     },
     {
       icon: Linkedin,
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/sathwikreddy",
+      href: "https://www.linkedin.com/in/sathwik-reddy-0b089a280/",
       color: "hover:text-blue-600"
     }
   ];
