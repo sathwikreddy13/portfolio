@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, TrendingUp, Zap, ChevronLeft, ChevronRight, Star, Users, Code2, Smartphone } from "lucide-react";
+import { ExternalLink, Github, TrendingUp, Zap, ChevronLeft, ChevronRight, Star, Users, Code2, Smartphone, Shield, DollarSign } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -69,26 +69,30 @@ const Projects = () => {
       image: "project4.png",
       category: "Web Platform"
     },
-    // {
-    //   title: "SmartFinance",
-    //   description: "An intelligent personal finance management app with AI-driven insights, expense categorization, and investment recommendations.",
-    //   technologies: ["Flutter", "Python", "FastAPI", "PostgreSQL", "ML"],
-    //   achievements: [
-    //     {
-    //       icon: TrendingUp,
-    //       text: "25% better savings rate"
-    //     },
-    //     {
-    //       icon: Smartphone,
-    //       text: "Cross-platform support"
-    //     }
-    //   ],
-    //   link: "https://smartfinance-app.vercel.app",
-    //   github: "https://github.com/sathwikreddy/smartfinance",
-    //   featured: false,
-    //   image: "https://images.pexels.com/photos/3861961/pexels-photo-3861961.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   category: "FinTech"
-    // }
+    {
+      title: "Credit Karma Agent",
+      description: "A decentralized microloan platform that evaluates borrower credibility using on-chain wallet analytics and AI-driven credit scoring to enable collateral-free lending.",
+      technologies: ["React.js", "Solidity", "Ethers.js", "Node.js", "Gemini API", "ZK-Proofs", "Ethereum"],
+      achievements: [
+        {
+          icon: Users,
+          text: "50+ wallets scored with 0-1000 credit range"
+        },
+        {
+          icon: Shield,
+          text: "ZK-Proof KYC with zero data exposure"
+        },
+        {
+          icon: DollarSign,
+          text: "Automated loan lifecycle via smart contracts"
+        }
+      ],
+      link: "https://credit-karma-agent.vercel.app",
+      github: "https://github.com/sathwikreddy/credit-karma-agent",
+      featured: true,
+      image: "creditkarma.png",
+      category: "DeFi"
+    }
   ];
 
   const scroll = (direction: 'left' | 'right') => {
