@@ -285,7 +285,7 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 className="bg-background/50 backdrop-blur-sm border-border/50 hover:border-primary/50 hover:bg-primary/5 hover:text-blue-500 transition-all duration-300 px-8 py-6 text-lg font-semibold group"
-                onClick={() => window.open('/resume.pdf', '_blank')}
+                onClick={() => window.open('/mareddyresume.pdf', '_blank')}
               >
                 <Download className="w-5 h-5 mr-2 " />
                 <span >View Resume</span>
