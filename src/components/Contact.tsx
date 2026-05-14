@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone", 
-      value: "+91-9581499988",
-      href: "tel:+919581499988"
+      value: "+91-9848075707",
+      href: "tel:+919848075707"
     },
     {
       icon: MapPin,
@@ -135,7 +135,7 @@ const Contact = () => {
                     variant="outline"
                     size="lg"
                     className="border-white/30 text-white hover:bg-white/10 w-full"
-                    onClick={() => window.open('tel:+919581499988', '_blank')}
+                    onClick={() => window.open('tel:+919848075707', '_blank')}
                   >
                     <Phone className="w-5 h-5 mr-2" />
                     Call Me
